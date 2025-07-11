@@ -45,6 +45,9 @@ nav ul li{
   cursor: pointer;
 }
 
+body{
+  background-image: #D6DDED
+}
 
 /* Banner Style  */
 
@@ -206,37 +209,37 @@ main{
 
 /* Form Section  */
 
+.forms{
+  max-width: 1440px;
+}
+
 .form-section{
   display: flex;
-  justify-content: space-between;
-  padding: 71px 0px;
-  border: 1px solid tomato;
-  
+  align-items: center;
+  gap: 318px;
+
 }
 
 .form-title{
   font-size: 97px;
   font-weight: bold;
-  text-align: center;
-  align-items: center;
+  color: black;
   width: 528px;
+  margin: 200px 115px 200px 0px;
+
 }
 
-.form{
-  display: grid;
-}
 
-.form input[type="text"], .form input[type="email"], .form textarea{
+.form-section [type="text"], .form-section [type="email"], .form-section textarea {
+  display: block;
   font-size: 20px;
+  color: rgba(0, 0, 0, 0.5);
   padding: 20px 32px;
   border-radius: 10px;
-  display: block;
-  background-color: white;
-  color: rgba(0, 0, 0, 0.5);
+  border: 1px solid #D6DDED;
   width: 100%;
+  background-color: white;
   margin: 10px 0 19px 0px;
 }
-.form button{
-  display: inline;
-}
 
+/* Footer Section  */
