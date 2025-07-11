@@ -101,7 +101,49 @@ main{
   margin-bottom: 23px;
 }
 
+/* Productive Users Section */
 
+.productive-section{
+  max-width: 1440px;
+  background-color: rgba(78, 71, 255, 0.1);
+  border-radius: 24px;
+  margin-bottom: 137px;
+}
+
+.productive-users{
+  width: 856px;
+  margin: 0 auto;
+  border-color: rgba(78, 71, 255, 0.1) ;
+  border-radius: 24px;
+  justify-content: center;
+  padding: 50px 142px;
+}
+
+.productive-title{
+  font-size: 32px;
+  font-weight: bold;
+  color: #252432;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.productive-rate{
+  display: flex;
+  text-align: center;
+  justify-content: space-between;
+}
+
+.productive-number{
+  font-family: 'Inter';
+  font-size: 80px;
+  font-weight: bold;
+  color: rgba(78, 71, 255, 1);
+}
+
+.productive-description{
+  font-size: 20px;
+  color: rgba(0, 0, 0, 0.5);
+}
 
 
 
