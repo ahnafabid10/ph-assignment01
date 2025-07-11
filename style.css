@@ -30,6 +30,8 @@ nav ul li{
   font-weight: 900;
   color: #4E47FF;
   margin-top: 50px;
+  font-family: Inter;
+
 }
 
 /* Share Styles  */
@@ -46,7 +48,7 @@ nav ul li{
 }
 
 body{
-  background-image: #D6DDED
+  background-image: rgba(255, 255, 255, 0.1)
 }
 
 /* Banner Style  */
@@ -243,3 +245,44 @@ main{
 }
 
 /* Footer Section  */
+
+footer{
+  background-image: #252432;
+  background-color:  #252432;
+}
+.footer{
+  display: block;
+  align-items: center;
+  text-align: center;
+  width: 531px;
+  margin: 0 auto;
+  padding: 105px 450px;
+  background-color: #252432;
+
+}
+
+.footer h1{
+  font-size: 100px;
+  font-weight: 900;
+  color: #4E47FF;
+  font-family: Inter;
+}
+
+.footer p{
+  color: #8987A1;
+}
+
+.nav-footer ul {
+  display: flex;
+  gap: 48px;
+  margin-top: 20px;
+  justify-content: center;
+}
+
+.nav-footer li{
+  list-style: none;
+}
+.nav-footer li a{
+  text-decoration: none;
+  color: #8987A1;
+}
