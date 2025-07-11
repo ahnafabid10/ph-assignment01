@@ -245,6 +245,21 @@ main{
   margin: 10px 0 19px 0px;
 }
 
+.form-section label{
+  font-size: 18px;
+  font-weight: 500;
+  font-family: Inter;
+}
+
+.form-button{
+  display: block;
+  font-size: 20px;
+  padding: 20px 100px;
+  border-radius: 10px;
+  width: 117%;
+  margin: 10px 50 19px 0px;
+}
+
 /* Footer Section  */
 
 footer{
@@ -288,3 +303,4 @@ footer{
   text-decoration: none;
   color: #8987A1;
 }
+
