@@ -31,6 +31,7 @@ nav ul li{
   color: #4E47FF;
   margin-top: 50px;
   font-family: Inter;
+  cursor: pointer;
 
 }
 
@@ -47,8 +48,8 @@ nav ul li{
   cursor: pointer;
 }
 
-body{
-  background-image: rgba(255, 255, 255, 0.1)
+.btn-primary:hover{
+  background-color: #8987A1 ;
 }
 
 /* Banner Style  */
@@ -266,6 +267,7 @@ footer{
   font-weight: 900;
   color: #4E47FF;
   font-family: Inter;
+  cursor: pointer;
 }
 
 .footer p{
